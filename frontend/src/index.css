@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #0b0f19;
+  color: #e8e8e8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, select, textarea, button {
+  font: inherit;
+}
+
+.card {
+  background: #11182a;
+  border: 1px solid #24304a;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #334155;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid #334155;
+  display: inline-block;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border-bottom: 1px solid #22304a;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  color: #a8b3cf;
+  cursor: pointer;
+  user-select: none;
+}
+
+.rowlink:hover {
+  background: rgba(37, 99, 235, 0.08);
+}
